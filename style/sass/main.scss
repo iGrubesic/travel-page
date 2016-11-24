@@ -65,12 +65,14 @@ header {
         top: 0;
         left: 0;
         background: rgba(255, 255, 255, 0.5);
+        z-index: 10;
     }
 
     .logo-img {
         display: inline-block;
         float: left;
         margin-right: 10rem;
+        cursor: pointer;
     }
 
     ul {
@@ -106,13 +108,14 @@ header {
 
 .about-us {
     position: relative;
-    height: 667px;
+    height: 450px;
     background: #f6f4f4;
     display: inline-block;
     width: 100%;
     .continents {
-        width: 54.7%;
-        height: 47.3%;
+        width: 616px;
+        height: auto;
+        margin-top: 1rem;
         z-index: 1;
         position: absolute;
         top: 0;
@@ -165,3 +168,84 @@ header {
         right: 375px;
     }
 }
+
+.our-journal {
+    width: 100%;
+    height: auto;
+    h2 {
+        color: #2c2e37;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        display: block;
+        text-align: center;
+        padding: 2rem;
+    }
+    .block-wrapper {
+        box-shadow: 0px 0px 21px 0px rgba(6, 6, 6, 0.13);
+        width: 100%;
+        float: left;
+    }
+    .col4 {
+        width: $column-width*3;
+    }
+    .block {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    span {
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .title {
+        color: $primary-color;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        padding-top: 3rem;
+    }
+    h3 {
+        display: block;
+        padding: 1rem 2rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: #212121;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+    }
+    p {
+        padding: 2rem;
+        text-align: center;
+        line-height: 2rem;
+        margin: 0;
+    }
+    .img1 {
+        background-image: url("../img/img-journal1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;        
+    }
+    .img2 {
+        background-image: url("../img/img-journal2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .img3 {
+        background-image: url("../img/img-journal3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .img-icon {
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       position: absolute;
+       margin:auto;
+    }
+}
+
+
