@@ -323,3 +323,60 @@ header {
     }
 }
 
+.how-we-work {
+    width: 100%;
+    background-color: $tertiary-color;
+    float: left;
+    height: 400px;
+    .container {
+       max-width: $container-width;
+    }
+    h2 {
+       color: #2c2e37;
+       text-transform: uppercase;
+       font-weight: 700;
+       letter-spacing: 0.1rem;
+       display: block;
+       text-align: center;
+       margin: 3rem;  
+    }
+    span {
+        text-align: center;
+        display: inline-block;
+        color: $primary-color;
+        font-weight: 700;
+        font-size: 1.3rem;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .num-border {
+            border-radius: 50%;
+            border: 3px solid $primary-color;
+    }
+    .circle-back {
+        background-color: #f0f3f6;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    img {
+        margin-top: 50%;
+        transform: translateY(-50%);
+        width: 100px;
+    }
+    p {
+        text-align: center;
+        color: $secundary-color;
+        font-weight: 500;
+        font-size: 1.3rem;
+        padding: 0 1rem;
+        line-height: 2rem;
+    }
+}
