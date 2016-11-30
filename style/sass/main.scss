@@ -411,3 +411,56 @@ header {
         height: auto;
     }
 }
+
+.gallery {
+    width: 100%;
+    float: left;
+    background-color: $tertiary-color;
+    h2 {
+      color: #2c2e37;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.2rem;
+      display: block;
+      text-align: center;
+      margin: 4rem;    
+    }
+    img {
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    .photo1 {
+        width: 80%;
+        height: 343px;
+        float: right;
+    }
+    .photo2 {
+        width: 80%;
+        height: 281px;
+        float: right;
+    }
+    .photo3 {
+        width: 361px;
+        height: 243px;
+    }
+    .photo4 {
+        width: 361px;
+        height: 381px;
+    }
+    .photo5 {
+        width: 100%;
+        height: 343px;
+    }
+    .photo6 {
+        width: 100%;
+        height: 281px;
+    }
+}
+
+.logos {
+    img {
+        width: 70px;
+        height: 50px;
+        padding: 2rem;
+    }
+}
